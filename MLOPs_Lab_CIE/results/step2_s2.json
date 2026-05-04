@@ -1,0 +1,13 @@
+{
+    "search_type": "random",
+    "n_folds": 5,
+    "total_trials": 10,
+    "best_params": {
+        "n_estimators": 300,
+        "max_depth": 3,
+        "learning_rate": 0.05
+    },
+    "best_mae": 0.5899741109315711,
+    "best_cv_mae": 1.0535480149507972,
+    "parent_run_name": "tuning-promptlab"
+}

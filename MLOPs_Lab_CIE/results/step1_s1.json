@@ -1,0 +1,18 @@
+{
+    "experiment_name": "promptlab-response-quality-score",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 1.3063297651098744,
+            "rmse": 1.8112674240440902
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 0.6582400636707078,
+            "rmse": 0.9168528911191959
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "rmse",
+    "best_metric_value": 0.9168528911191959
+}
