@@ -80,4 +80,7 @@ os.makedirs("../results", exist_ok=True)
 with open("../results/step1_s1.json", "w") as f:
     json.dump(output, f, indent=4)
 
+import joblib
+os.makedirs("../models", exist_ok=True)
+joblib.dump(gbr, "../models/best_model.pkl")
 print("✅ step1_s1.json created!")

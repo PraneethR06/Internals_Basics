@@ -1,0 +1,13 @@
+{
+  "health_endpoint": "/ping",
+  "predict_endpoint": "/infer",
+  "port": 9000,
+  "health_response": {"status": "operational", "service": "PromptLab API"},
+  "test_input": {
+    "prompt_token_count": 692,
+    "system_prompt_length": 1075,
+    "temperature": 1.0,
+    "is_few_shot": 1
+  },
+  "prediction": 0.0
+}
